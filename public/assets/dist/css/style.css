@@ -1,0 +1,484 @@
+.login-page {
+    background: linear-gradient(#ffd382, white);
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: calc(100% - 40px);
+    padding: 20px 40px;
+    padding-top:90px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.login-logo {
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 20px #cccc;
+    z-index: 4;
+}
+
+.login-logo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.login-form h2 span {
+    font-weight: bold;
+    padding-bottom: 10px;
+    line-height: 1;
+    border-bottom: 5px solid #f6b803;
+}
+
+.login-form .card {
+    box-shadow: none;
+}
+
+.login-form .field {
+    width: 100%;
+}
+
+.login-form input {
+    border: 1px solid #ced4da !important;
+}
+
+.login-form label {
+    color: #2E405C;
+    font-size: 13px;
+    font-weight: 600 !important;
+}
+
+.login-form button.submit {
+    border: 0;
+    outline: 0;
+    background-color: #f6b803;
+}
+
+/* Header */
+
+.main-header {
+    background-color: #ffc55b;
+}
+
+.main-header .navbar-nav .nav-item.nested {
+    position: relative;
+}
+
+.main-header .navbar-nav .nav-item.nested ul {
+    background: #ffffff;
+    position: absolute;
+    top: 200px;
+    left: -130px;
+    min-width: 100px;
+    list-style: none;
+    padding: 7px 14px;
+    border-radius: 7px;
+    opacity: 0;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 300ms;
+}
+
+.main-header .navbar-nav .nav-item.nested ul li {
+    white-space: nowrap;
+    padding: 5px 0;
+}
+
+.main-header .navbar-nav .nav-item.nested ul li:not(:last-child) {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.main-header .navbar-nav .nav-item.nested ul li a {
+    color: #000;
+    transition: 300ms;
+}
+
+.main-header .navbar-nav .nav-item.nested ul li a:hover {
+    color: #ffc55b;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.main-header .navbar-nav .nav-item.nested ul.active {
+    top: 50px;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.main-header .navbar-nav .nav-item.nested ul li {
+    color: #fff;
+}
+
+.hamburger.logo-image {
+    background:none;
+    border: 0;
+    border-radius: 50%;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+
+.hamburger.logo-image img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* Sidebar */
+.main-sidebar {
+    background-color: #000000 !important;
+}
+
+.main-sidebar .brand-text  {
+    font-weight: bold !important;
+    background: linear-gradient(45deg, #ffc55b 50%, white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.main-sidebar .nav-link.active,
+.main-sidebar .nav-link:hover {
+    background-color: #ffc55b !important;
+}
+
+.nav-pills .nav-link {
+    padding: 0.5rem 0.2rem;
+}
+
+.page-wrapper {
+    padding-top: 0 !important;
+    background : #f4f6f9;
+}
+
+.main-sidebar .brand-link {
+    display: flex;
+    align-items: center;
+}
+
+.main-sidebar .brand-link .brand-image {
+    height: 3rem;
+    width: 3rem;
+    max-height: unset;
+}
+
+/* Footer */
+.main-footer {
+    color: #000;
+}
+
+.main-footer a {
+    color: #ffc55b
+}
+
+/* Worksation */
+.content-wrapper .container {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #f7f7f7;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    background: #ffc55b !important;
+}
+
+.table td, .table th {
+    border: 0;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 0;
+}
+
+.data-table tr td {
+    border-bottom:1px solid #dcdcdc;
+}
+
+.dataTables_wrapper div.dataTables_filter input {
+    outline: 0;
+    border: 1px solid #c5c5c5;
+    max-width:170px;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0 7px;
+}
+
+.button-outline {
+    color: #000;
+    border: 2px solid #ffc55b;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #fefefe;
+    background: transparent;
+}
+
+table.dataTable tbody tr {
+    background: transparent !important;
+}
+
+/* Admin Table */
+table#DataTables_Table_0 {
+    width: 100% !important;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px;
+}
+
+ul.nav-sidebar {
+    padding-bottom: 30px;
+}
+
+/* Password  eye icon */
+.field.password {
+    position: relative;
+}
+
+.field.password .icon {
+    position: absolute;
+    top: 50px;
+    bottom: auto;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+    background: url("../img/hide.png");
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+.field.password .icon.visible {
+    background: url("../img/view.png");
+    background-size: contain;
+}
+
+/* Confirm Password  eye icon */
+/* .field.passwords {
+    position: relative;
+}
+
+.field.passwords .icon {
+    position: absolute;
+    top: 50px;
+    bottom: auto;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+    background: url("../img/hide.png");
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+.field.passwords .icon.visible {
+    background: url("../img/view.png");
+    background-size: contain;
+} */
+
+.forget-page .field.password .icon {
+    bottom: 28px;
+}
+
+.forget-page {
+    background: linear-gradient(#ffd382, white);
+}
+
+.forget-page h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.forget-page h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #f6b803;
+}
+
+.form-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+}
+
+.forget-page .btn {
+    background: #f6b803;
+    border: 0;
+}
+
+.forget-page .card {
+    border-radius: 20px;
+    padding: 35px 25px;
+    box-shadow: none;
+    background: #fff;
+    box-shadow: 0 0 20px #ccc;
+}
+
+table.booking-info  table {
+    box-shadow: 0 0 10px #e0e0e0;
+}
+
+table.booking-info thead {
+    background: #ffc55b;
+    color: #fff;
+}
+
+table.booking-info td {
+    padding: 5px;
+    text-align: center;
+}
+
+table.booking-info table tr td:first-child {
+    min-width: 200px;
+}
+
+table.booking-info table tr td:last-child {
+    max-width: 300px;
+}
+
+.records_modal {
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+}
+
+.records_modal.open {
+    display: flex;
+}
+
+.records_modal .records {
+    position: relative;
+    background: #fff;
+    height: 200px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 20px #727272;
+}
+
+.records_modal button.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    transform: rotate(45deg);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.records_modal input {
+    width: 82%;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+    outline: 0;
+}
+
+.dataTable th, .dataTable td {
+    white-space: nowrap;
+}
+
+.custom-file {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.records_modal button {
+    display: inline-block;
+    margin-top: 10px;
+    outline: 0;
+    border: 0;
+    background: #fff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 2px solid #f5b808;
+    color: #000;
+    transition: 300ms;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.records_modal button.saveData:hover {
+    background: #f5b808;
+}
+
+.img-container {
+    max-height: 400px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.demo img {
+    display: block;
+    max-width: 100%;
+}
+.preview {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+}
+.modal-lg {
+    max-width: 800px !important;
+}
+.demo1 img {
+    display: block;
+    max-width: 100%;
+}
+.preview1 {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+}
+.modal1-lg {
+    max-width: 800px !important;
+}
