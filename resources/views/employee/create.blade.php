@@ -82,35 +82,7 @@
                     </div>
                     <!-- /.row -->
                 </div><!-- /.container-fluid -->
-                {{-- Image Model --}}
-                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
-                    aria-hidden="true" style="min-height: 200px">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content" style="min-height: 200px">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="img-container">
-                                    <div class="row">
-                                        <div class="col-md-8 demo">
-                                            <img id="imagePreview" src="">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="preview"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-primary" id="crop">Crop</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
         </section>
         <!-- /.content -->
     </div>
